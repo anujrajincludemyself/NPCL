@@ -55,7 +55,7 @@ export default function Home() {
       <FeaturedProjects />
 
       {/* CTA Section */}
-      <Section background="dark">
+      <Section background="dark" className="bg-black">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">
             Ready to Build the Future?

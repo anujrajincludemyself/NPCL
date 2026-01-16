@@ -3,7 +3,7 @@ import Button from '@/components/ui/Button';
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+        <section className="relative min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-white overflow-hidden py-20 md:py-0">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-[0.03]">
                 <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="absolute top-20 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-gray-900/5 rounded-full blur-3xl" />
 
-            <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+            <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 md:pt-32 pb-12 md:pb-20">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Content */}
                     <div className="max-w-2xl">
@@ -29,28 +29,28 @@ export default function Hero() {
                             <span className="text-sm font-medium text-amber-700">25+ Years of Excellence</span>
                         </div>
 
-                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                             Building Roads That
                             <span className="block text-amber-500">Connect India</span>
                         </h1>
 
-                        <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+                        <p className="mt-4 md:mt-6 text-base md:text-lg text-gray-600 leading-relaxed">
                             NCPL is a premier civil road construction company specializing in highways,
                             expressways, bridges, and urban infrastructure. We deliver world-class projects
                             that stand the test of time.
                         </p>
 
                         {/* Motto Banner */}
-                        <div className="mt-8 p-6 bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-r-xl">
-                            <p className="text-xl font-semibold text-gray-900 italic">
+                        <div className="mt-6 md:mt-8 p-4 md:p-6 bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-r-xl">
+                            <p className="text-base md:text-xl font-semibold text-gray-900 italic">
                                 "Building Tomorrow's Infrastructure, Today"
                             </p>
-                            <p className="mt-2 text-sm text-gray-600">
+                            <p className="mt-2 text-xs md:text-sm text-gray-600">
                                 Connecting communities, driving progress, building the future.
                             </p>
                         </div>
 
-                        <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                        <div className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 md:gap-4">
                             <Button href="/projects" size="lg">
                                 View Our Projects
                             </Button>
@@ -60,7 +60,7 @@ export default function Hero() {
                         </div>
 
                         {/* Trust Badges */}
-                        <div className="mt-12 flex items-center gap-8">
+                        <div className="mt-8 md:mt-12 flex flex-wrap items-center gap-4 md:gap-8">
                             <div className="flex items-center gap-2">
                                 <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />

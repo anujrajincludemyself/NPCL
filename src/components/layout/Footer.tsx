@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const footerLinks = {
     company: [
@@ -23,30 +24,21 @@ const footerLinks = {
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 text-white">
+        <footer className="bg-black text-white">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
                     {/* Company Info */}
                     <div className="lg:col-span-2">
                         <div className="flex items-center gap-3 mb-6">
-                            <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                                <svg
-                                    className="w-6 h-6 text-white"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-                                    />
-                                </svg>
-                            </div>
-                            <div>
-                                <span className="text-xl font-bold">NCPL</span>
-                                <span className="block text-sm text-gray-400">Building Tomorrow's Infrastructure</span>
+                            <div className="h-16 w-auto relative">
+                                <Image
+                                    src="/ncpl-logo.png"
+                                    alt="NCPL - Nandpur Constructions"
+                                    width={220}
+                                    height={64}
+                                    className="object-contain h-16 w-auto"
+                                    unoptimized
+                                />
                             </div>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-md mb-6">
