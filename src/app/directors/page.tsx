@@ -5,8 +5,8 @@ import DirectorCard from '@/components/sections/DirectorCard';
 import { directors } from '@/data/directors';
 
 export const metadata: Metadata = {
-    title: 'Leadership - RoadBaze',
-    description: 'Meet the experienced leadership team behind RoadBaze\'s success in infrastructure development.',
+    title: 'Leadership - NCPL',
+    description: 'Meet the experienced leadership team behind NCPL\'s success in infrastructure development.',
 };
 
 export default function DirectorsPage() {
@@ -24,7 +24,7 @@ export default function DirectorsPage() {
                     <p className="mt-6 text-lg text-gray-600">
                         Our leadership team brings together decades of experience in civil engineering,
                         project management, and business operations. Their vision and expertise have
-                        shaped RoadBaze into a trusted name in infrastructure development.
+                        shaped NCPL into a trusted name in infrastructure development.
                     </p>
                 </div>
             </Section>
@@ -48,7 +48,7 @@ export default function DirectorsPage() {
                             align="left"
                         />
                         <p className="text-gray-600 leading-relaxed">
-                            At RoadBaze, our leadership believes in leading by example. Our directors
+                            At NCPL, our leadership believes in leading by example. Our directors
                             regularly visit project sites, engage with field teams, and ensure that
                             every project meets our exacting standards.
                         </p>
@@ -87,7 +87,7 @@ export default function DirectorsPage() {
                     <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                         <img
                             src="/images/leadership-team.png"
-                            alt="RoadBaze Leadership Team"
+                            alt="NCPL Leadership Team"
                             className="w-full h-full object-cover"
                         />
                     </div>

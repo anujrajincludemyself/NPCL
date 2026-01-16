@@ -23,7 +23,7 @@ export default function Home() {
             that meet the highest standards of quality and safety."
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.slice(0, 3).map((service) => (
             <div
               key={service.id}
@@ -61,7 +61,7 @@ export default function Home() {
             Ready to Build the Future?
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            Partner with RoadBaze for your next infrastructure project.
+            Partner with NCPL for your next infrastructure project.
             Our team is ready to discuss your requirements and deliver excellence.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Why Choose RoadBaze?
+              Why Choose NCPL?
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               With over two decades of experience, we have built a reputation for
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
             <img
               src="/images/infrastructure-equipment.png"
-              alt="RoadBaze Construction Equipment Fleet"
+              alt="NCPL Construction Equipment Fleet"
               className="w-full h-full object-cover"
             />
           </div>
