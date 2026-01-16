@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button';
 import { services } from '@/data/services';
 
 export const metadata: Metadata = {
-    title: 'Services - RoadBaze',
+    title: 'Services - NCPL',
     description: 'Explore our comprehensive range of civil road construction services including highways, bridges, urban roads, and maintenance.',
 };
 
@@ -31,7 +31,7 @@ export default function ServicesPage() {
 
             {/* Services Grid */}
             <Section>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service) => (
                         <ServiceCard key={service.id} service={service} />
                     ))}
@@ -116,7 +116,7 @@ export default function ServicesPage() {
                     <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                         <img
                             src="/images/equipment-fleet.png"
-                            alt="RoadBaze Construction Equipment"
+                            alt="NCPL Construction Equipment"
                             className="w-full h-full object-cover"
                         />
                     </div>
