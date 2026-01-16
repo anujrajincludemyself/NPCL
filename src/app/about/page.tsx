@@ -75,16 +75,13 @@ export default function AboutPage() {
                         </p>
                     </div>
 
-                    {/* Image Placeholder */}
-                    <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="text-center">
-                                <svg className="w-16 h-16 mx-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                </svg>
-                                <p className="mt-4 text-gray-500">Company Headquarters</p>
-                            </div>
-                        </div>
+                    {/* Company Headquarters */}
+                    <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                        <img
+                            src="/images/company-headquarters.png"
+                            alt="RoadBaze Company Headquarters"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 </div>
             </Section>

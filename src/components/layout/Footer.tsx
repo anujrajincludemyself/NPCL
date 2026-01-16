@@ -45,12 +45,12 @@ export default function Footer() {
                                 </svg>
                             </div>
                             <div>
-                                <span className="text-xl font-bold">RoadBaze</span>
-                                <span className="block text-sm text-gray-400">Infrastructure Excellence</span>
+                                <span className="text-xl font-bold">NCPL</span>
+                                <span className="block text-sm text-gray-400">Building Tomorrow's Infrastructure</span>
                             </div>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-md mb-6">
-                            RoadBaze is a leading civil road construction company with over 25 years of experience in building highways, bridges, and urban roads that connect communities and drive progress.
+                            NCPL is a leading civil road construction company with over 25 years of experience in building highways, bridges, and urban roads that connect communities and drive progress.
                         </p>
                         <div className="flex gap-4">
                             <a
@@ -139,7 +139,7 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-gray-800">
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                         <p className="text-gray-400 text-sm">
-                            © {new Date().getFullYear()} RoadBaze Infrastructure Pvt. Ltd. All rights reserved.
+                            © {new Date().getFullYear()} NCPL Infrastructure Pvt. Ltd. All rights reserved.
                         </p>
                         <div className="flex gap-6 text-sm text-gray-400">
                             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
