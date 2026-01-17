@@ -68,7 +68,7 @@ export default function Home() {
             <Button href="/contact" variant="secondary" size="lg">
               Get a Free Quote
             </Button>
-            <Button href="/projects" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900">
+            <Button href="/projects" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:!text-gray-900">
               Explore Projects
             </Button>
           </div>
