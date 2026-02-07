@@ -26,7 +26,7 @@ export default function Hero() {
                     <div className="max-w-2xl">
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 rounded-full mb-6">
                             <span className="w-2 h-2 bg-amber-500 rounded-full animate-pulse" />
-                            <span className="text-sm font-medium text-amber-700">25+ Years of Excellence</span>
+                            <span className="text-sm font-medium text-amber-700">10+ Years of Excellence</span>
                         </div>
 
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -35,9 +35,9 @@ export default function Hero() {
                         </h1>
 
                         <p className="mt-4 md:mt-6 text-base md:text-lg text-gray-600 leading-relaxed">
-                            NCPL is a premier civil road construction company specializing in highways,
-                            expressways, bridges, and urban infrastructure. We deliver world-class projects
-                            that stand the test of time.
+                            NCPL is a civil road construction company specializing in highways,
+                            buildings, flyovers, and urban infrastructure across Bihar and Jharkhand.
+                            We deliver quality projects that stand the test of time.
                         </p>
 
                         {/* Motto Banner */}

@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: "NCPL - Civil Road Construction Company",
   description: "NCPL is a premier civil road construction company specializing in highways, expressways, bridges, and urban infrastructure across India.",
   keywords: ["road construction", "highway construction", "infrastructure", "civil engineering", "India"],
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

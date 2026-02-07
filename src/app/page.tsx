@@ -5,6 +5,8 @@ import Section from '@/components/ui/Section';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Button from '@/components/ui/Button';
 import { services } from '@/data/services';
+import MissionVision from '@/components/sections/MissionVision';
+import Learnings from '@/components/sections/Learnings';
 
 export default function Home() {
   return (
@@ -50,6 +52,12 @@ export default function Home() {
           </Button>
         </div>
       </Section>
+
+      {/* Mission & Vision Section */}
+      <MissionVision />
+
+      {/* Learnings Section */}
+      <Learnings />
 
       {/* Featured Projects */}
       <FeaturedProjects />

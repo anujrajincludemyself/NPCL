@@ -42,10 +42,10 @@ function StatItem({ value, suffix, label }: StatItemProps) {
 }
 
 const stats = [
-    { value: 25, suffix: '+', label: 'Years of Experience' },
+    { value: 10, suffix: '+', label: 'Years of Experience' },
     { value: 2500, suffix: '+', label: 'KM Roads Constructed' },
-    { value: 150, suffix: '+', label: 'Projects Completed' },
-    { value: 50, suffix: '+', label: 'Major Clients' },
+    { value: 15, suffix: '+', label: 'Projects Completed' },
+    { value: 30, suffix: '+', label: 'Major Clients' },
 ];
 
 export default function Stats() {

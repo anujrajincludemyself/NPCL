@@ -10,6 +10,7 @@ const navigation = [
     { name: 'Directors', href: '/directors' },
     { name: 'Projects', href: '/projects' },
     { name: 'Services', href: '/services' },
+    { name: 'Hiring', href: '/hiring' },
     { name: 'Contact', href: '/contact' },
 ];
 
@@ -23,15 +24,14 @@ export default function Header() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center gap-3">
-                            <div className="h-14 w-auto relative">
+                            <div className="h-20 w-auto relative">
                                 <Image
-                                    src="/ncpl-logo.png"
+                                    src="/logo.png"
                                     alt="NCPL - Nandpur Constructions"
-                                    width={200}
-                                    height={56}
-                                    className="object-contain h-14 w-auto"
+                                    width={280}
+                                    height={80}
+                                    className="object-contain h-20 w-auto"
                                     priority
-                                    unoptimized
                                 />
                             </div>
                             <div>
