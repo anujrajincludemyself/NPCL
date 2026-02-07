@@ -5,8 +5,8 @@ import Timeline from '@/components/sections/Timeline';
 import Button from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-    title: 'About Us - RoadBaze',
-    description: 'Learn about RoadBaze, a leading civil road construction company with over 25 years of experience in building highways, bridges, and urban infrastructure across India.',
+    title: 'About Us - NCPL',
+    description: 'Learn about NCPL, a leading civil road construction company with over 25 years of experience in building highways, bridges, and urban infrastructure across India.',
 };
 
 const values = [
@@ -56,14 +56,14 @@ export default function AboutPage() {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <span className="inline-flex items-center gap-2 px-4 py-2 bg-amber-100 rounded-full mb-6">
-                            <span className="text-sm font-medium text-amber-700">About RoadBaze</span>
+                            <span className="text-sm font-medium text-amber-700">About NCPL</span>
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
                             Building India&apos;s Infrastructure
                             <span className="block text-amber-500">Since 1999</span>
                         </h1>
                         <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                            RoadBaze Infrastructure Pvt. Ltd. is one of India&apos;s leading civil road construction
+                            NCPL Infrastructure Pvt. Ltd. is one of India&apos;s leading civil road construction
                             companies, with a proven track record of delivering world-class highways, expressways,
                             bridges, and urban roads that connect communities and drive economic growth.
                         </p>
@@ -79,7 +79,7 @@ export default function AboutPage() {
                     <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                         <img
                             src="/images/company-headquarters.png"
-                            alt="RoadBaze Company Headquarters"
+                            alt="NCPL Company Headquarters"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -124,7 +124,7 @@ export default function AboutPage() {
             <Section background="gray">
                 <SectionTitle
                     title="Our Core Values"
-                    subtitle="The principles that guide everything we do at RoadBaze."
+                    subtitle="The principles that guide everything we do at NCPL."
                 />
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -150,7 +150,7 @@ export default function AboutPage() {
                         Want to Know More?
                     </h2>
                     <p className="mt-4 text-lg text-gray-300">
-                        Meet our leadership team and learn about the people driving RoadBaze&apos;s success.
+                        Meet our leadership team and learn about the people driving NCPL&apos;s success.
                     </p>
                     <div className="mt-8">
                         <Button href="/directors" variant="secondary" size="lg">

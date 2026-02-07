@@ -4,7 +4,7 @@ import ProjectCard from '@/components/sections/ProjectCard';
 import { projects } from '@/data/projects';
 
 export const metadata: Metadata = {
-    title: 'Projects - RoadBaze',
+    title: 'Projects - NCPL',
     description: 'Explore our portfolio of highway, bridge, and urban road construction projects across India.',
 };
 
